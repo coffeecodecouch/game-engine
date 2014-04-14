@@ -1,10 +1,10 @@
-body {
-    margin: 0;
+html, body {
+    width: 100%;
+    height: 100%;
 }
 
-canvas {
-    display: block;
-    background-color: green;
+body {
+    margin: 0;
 }
 
 #no-canvas {
@@ -14,4 +14,15 @@ canvas {
     width: 100%;
     height: 100%;
     background-color: gray;
+}
+
+#iphone-wrap {
+    width: 568px;
+    height: 320px;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0; left: 0;
 }
